@@ -18,8 +18,8 @@ public class SerialTest implements SerialPortEventListener {
 		static final String DB_URL = "jdbc:sqlanywhere:shame";
 
 		//  Database credentials
-		static final String USER = "dba";
-		static final String PASS  = "sql123";
+		static final String USER = "user";
+		static final String PASS  = "password";
 
                 SerialPort serialPort;
         /** The port we're normally going to use. */
